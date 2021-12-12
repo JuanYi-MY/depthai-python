@@ -277,7 +277,7 @@ def crop_to_rect(frame):
     return frame[0: height, delta:width - delta]
 
 # Blob path
-nnBlobPath = str((Path(__file__).parent / Path('models/mobilenet-ssd/mobilenet-ssd-openvino_2012.3_6shave_StackRingR4.blob')).resolve().absolute())
+nnBlobPath = str((Path(__file__).parent / Path('mobilenet-ssd-openvino_2012.3_6shave_StackRingR4.blob')).resolve().absolute())
 
 # MobilenetSSD label texts
 labelMap = ["unknown", "Blue", "Body", "Green", "Orange", "Red", "Yellow"]
